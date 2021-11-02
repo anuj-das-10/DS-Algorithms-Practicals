@@ -34,19 +34,19 @@ int main()
             	break;
     case 3: 	Delete_Node();
             	break;
-	case 4: 	length= Length();
-				system("cls");
-				printf("\nNumber of Nodes Present in the Linked List, i.e., Length: %d\n\n",length);
+    case 4: 	length= Length();
+		system("cls");
+		printf("\nNumber of Nodes Present in the Linked List, i.e., Length: %d\n\n",length);
             	break;
     case 5: 	system("cls");
-    			printf("\nElements present in the Linked List: \n");
-				Display();
+    		printf("\nElements present in the Linked List: \n");
+		Display();
             	break;
     case 6: 	system("cls");
-    			printf("Exiting.....\n");
-				exit(0);
+    		printf("Exiting.....\n");
+		exit(0);
     default: 	system("cls");
-				printf("\nInvalid Choice!!\n\n");
+		printf("\nInvalid Choice!!\n\n");
     }    
     }while(ch!=6);
     
@@ -126,7 +126,7 @@ void Display()
 //Defining Function Prototype Delete_Node(), that will Delete Node from the given Position in the Linked List
 void Delete_Node()
 {	
-	struct Node *temp;
+    struct Node *temp;
     int index;
     
     if(head==NULL){
@@ -151,10 +151,9 @@ void Delete_Node()
         free(temp);
         system("cls");
         printf("\nNode %d Deleted!\n\n",index);
-
     }
-	else{
-		int i;
+    else{
+    int i;
     struct Node *ptr1 = head;
     struct Node *ptr2 = head->link;
     for (i = 1; i < index-1; i++)
