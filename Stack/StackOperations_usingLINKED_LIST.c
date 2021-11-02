@@ -37,9 +37,9 @@ int main()
     printf("<------- STACK OPERATIONS ------->\n");
     printf("1. PUSH Elements\n");
     printf("2. POP Elements\n");
-	printf("3. Display Elements in Stack\n");
-	printf("4. Exit\n");
-	printf("<-------------------------------->\n\n");
+    printf("3. Display Elements in Stack\n");
+    printf("4. Exit\n");
+    printf("<-------------------------------->\n\n");
     printf("Enter your choice: ");
     scanf("%d",&ch);
       switch(ch) {
@@ -57,6 +57,7 @@ int main()
          
         case 4: 	system("cls");
 			printf("Exiting...\n");
+		        exit(0);
          		break;
          
          default:	system("cls"); 
