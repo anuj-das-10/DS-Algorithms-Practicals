@@ -48,16 +48,16 @@ int main()
             		Push(val);
             		break;
          
-		case 2: 	Pop();
+	case 2: 	Pop();
             		break;
          
-        case 3:     system("cls");
-					Display_Stack();
+        case 3:         system("cls");
+			Display_Stack();
             		break;
          
         case 4: 	system("cls");
-					printf("Exiting...\n");
-         		    break;
+			printf("Exiting...\n");
+         		break;
          
          default:	system("cls"); 
             		printf("\nInvalid Choice!!\n\n");
