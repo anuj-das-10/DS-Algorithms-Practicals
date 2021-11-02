@@ -49,7 +49,7 @@ int main()
 				printf("\nExiting.....\n\n");
 				exit(0);
 				break;
-	   default: system("cls");
+	       default: system("cls");
 				printf("\nInvalid Choice!!\n\n");
 		
 		}
