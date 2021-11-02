@@ -34,14 +34,14 @@ int main()
    					Display_Array(arr,size);
 					break;
    		
-   		case 3:     cout<<"Exiting.....";
-		   			exit(0);
+   		case 3:         cout<<"Exiting.....";
+		   		exit(0);
 		   			
-	    default: 	system("cls");
+	       default: 	system("cls");
 					cout<<"Invalid Choice!!\nChoose Again!!"<<endl; 
 					cout<<"\nGiven Array: ";
 	    			Display_Array(arr,size);
-				 	goto menu;
+				goto menu;
    }
    
    	return 0;		
