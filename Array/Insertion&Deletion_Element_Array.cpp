@@ -35,6 +35,11 @@ int main()
 					cout<<"Enter the Position of the Element to be Inserted: ";
    					cin>>index;
    					size++;
+					if(size>MAXSIZE){
+   					system("cls");
+					cout<<"\nOverflow!!\nExceeds the Maximum Size of Array!\n"<<endl;
+					break;
+					}
    					Insert_Element(arr,size,index,element);
    					system("cls");
    					cout<<"\nArray After Insertion of "<<element<<" at Position: "<<index<<endl;
